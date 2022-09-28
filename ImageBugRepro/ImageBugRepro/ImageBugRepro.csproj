@@ -6,13 +6,13 @@
         <SingleProject>true</SingleProject>
         <ImplicitUsings>enable</ImplicitUsings>
         <PackageId>MattHericks.MAUI.ImagePackage</PackageId>
-        <Version>0.0.1</Version>
+        <Version>0.0.4</Version>
         <OutputType>Library</OutputType>
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
     </PropertyGroup>
     
     <ItemGroup>
-        <None Include="MattHericks.MAUI.ImagePackage.targets" Pack="True" PackagePath="buildTransitive\"/>
+        <None Include="MattHericks.MAUI.ImagePackage.targets" Pack="True" />
     </ItemGroup>
     <ItemGroup>
       <MauiXaml Update="TestContent.xaml">
@@ -23,9 +23,9 @@
       <Folder Include="Resources" />
     </ItemGroup>
     <ItemGroup>
-      <MauiImage Include="Resources\Images\checkmark.svg" Pack="True" PackagePath="buildTransitive\Images"/>
+      <MauiImage Include="Resources\Images\checkmark.svg" Pack="True"/>
     </ItemGroup>
     <ItemGroup>
-        <None Include="Resources\Images\checkmark.svg" Pack="True" PackagePath="buildTransitive\Images"/>
+        <None Include="Resources\Images\checkmark.svg" Pack="True" />
     </ItemGroup>
 </Project>
