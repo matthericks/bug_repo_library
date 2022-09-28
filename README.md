@@ -1,2 +1,2 @@
-# bug_repo_library
-bug repro library
+# bug_repro
+bug repro library and app to consume library nuget package
