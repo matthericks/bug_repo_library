@@ -15,6 +15,8 @@
             <imageBugRepro:TestContent
                 HeightRequest="100"
                 WidthRequest="100"/>
+            <Image Source="dotnet_bot"
+                   HeightRequest="50"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
