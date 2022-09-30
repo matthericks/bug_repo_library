@@ -6,7 +6,7 @@
         <SingleProject>true</SingleProject>
         <ImplicitUsings>enable</ImplicitUsings>
         <PackageId>MattHericks.MAUI.ImagePackage</PackageId>
-        <Version>0.0.9</Version>
+        <Version>0.0.10</Version>
         <OutputType>Library</OutputType>
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
     </PropertyGroup>
@@ -19,7 +19,7 @@
       <MauiImage Include="Resources\Images\checkmark.svg" Pack="True" PackagePath="Resources\Images\" />
     </ItemGroup>
     <ItemGroup>
-        <None Include="Resources\Images\checkmark.svg" Pack="True" PackagePath="Resources\Images\" />
-        <None Include="Resources\MattHericks.MAUI.ImagePackage.targets" Pack="True" PackagePath="Resources\" />
+        <None Include="Resources\Images\checkmark.svg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\MattHericks.MAUI.ImagePackage.targets" Pack="True" PackagePath="buildTransitive\" />
     </ItemGroup>
 </Project>
