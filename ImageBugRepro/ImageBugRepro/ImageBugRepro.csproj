@@ -11,15 +11,44 @@
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
     </PropertyGroup>
     <ItemGroup>
-      <MauiXaml Update="TestContent.xaml">
-        <SubType />
-      </MauiXaml>
+        <MauiXaml Update="TestContent.xaml">
+            <SubType />
+        </MauiXaml>
     </ItemGroup>
     <ItemGroup>
-      <MauiImage Include="Resources\Images\checkmark.svg" Pack="True" PackagePath="Resources\Images\" />
+        <MauiImage Include="Resources\Images\checkmark.svg" Pack="True" PackagePath="Resources\Images\" />
+        <MauiImage Include="Resources\Images\checkmark.svg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\1.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\2.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\3.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\4.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\5.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\6.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\7.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\8.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\9.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\10.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\11.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\12.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\13.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <MauiImage Include="Resources\Images\14.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
     </ItemGroup>
     <ItemGroup>
         <None Include="Resources\Images\checkmark.svg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\1.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\2.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\3.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\4.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\5.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\6.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\7.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\8.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\9.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\10.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\11.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\12.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\13.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
+        <None Include="Resources\Images\14.jpg" Pack="True" PackagePath="buildTransitive\Resources\Images\" />
         <None Include="Resources\MattHericks.MAUI.ImagePackage.targets" Pack="True" PackagePath="buildTransitive\" />
     </ItemGroup>
 </Project>

@@ -1,5 +1,20 @@
 <Project>
     <ItemGroup>
         <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\checkmark.svg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\1.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\2.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\3.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\4.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\5.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\6.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\7.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\8.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\9.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\10.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\11.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\12.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\13.jpg" />
+        <MauiImage Include="$(MSBuildThisFileDirectory)\Resources\Images\14.jpg" />
+
     </ItemGroup>
 </Project>
